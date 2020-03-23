@@ -1,0 +1,171 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+body #aside {
+  display: flex;
+  flex-direction: column;
+  background: #253044;
+  width: 20%;
+  height: 100vh;
+  padding-left: 15px;
+}
+body #aside #bars {
+  display: flex;
+  align-items: center;
+  height: 64.74px;
+  padding: 10px;
+}
+body #aside #bars i {
+  font-size: 2.5rem;
+  color: #a9d7e3;
+}
+body #aside .category {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+body #aside .category a {
+  margin: 15px 0;
+  color: #fafafa;
+  font-size: 0.8em;
+}
+body #aside .category a i {
+  color: #a9d7e3;
+  margin-right: 10px;
+}
+body #aside .category a h3 {
+  margin: 0;
+  font-size: 0.8em;
+  color: #6d7d99;
+}
+body #aside .category a:hover {
+  transform: translateY(-10%);
+}
+body #aside #user {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+body #aside #user > a {
+  margin-right: 10px;
+}
+body #aside #user div h4 {
+  margin: 0 0 10px 0;
+  color: #fff;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+body #aside #user div a {
+  padding: 1px 2px;
+  border: 1px solid;
+  border-radius: 4px;
+  color: #6d7d99;
+}
+body #section {
+  display: flex;
+  flex-direction: column;
+  background: #f3f8fb;
+  width: 80%;
+}
+body #section nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  width: 100%;
+  padding: 0 30px;
+  border-bottom: 1px solid #dfdfdf;
+}
+body #section nav #navlinks {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+body #section nav #navlinks a {
+  display: block;
+  padding: 20px 0;
+  color: #a4aab2;
+  border: 3px solid #fff;
+}
+body #section nav #navlinks a:hover {
+  border-bottom: 2px solid;
+  border-radius: 5px;
+  color: #30383d;
+}
+body #section nav #navlinks a:nth-child(2) {
+  margin: 0 30px;
+}
+body #section nav #search {
+  width: 30%;
+}
+body #section header {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+body #section header img {
+  margin-left: 45px;
+  border-radius: 50;
+  box-shadow: 0px 0px 10px 1px black;
+}
+body #section header #artinfo {
+  padding-left: 30px;
+}
+body #section header #artinfo h1 {
+  margin: 5px;
+  font-size: 3.5em;
+}
+body #section header #artinfo span {
+  font-size: 0.8em;
+}
+body #section header #artinfo span:nth-of-type(3) {
+  padding-left: 20px;
+}
+body #section header #artinfo p {
+  margin: 0;
+  line-height: 1.8;
+  font-size: 1em;
+  word-spacing: 1px;
+  color: grey;
+}
+body #section header #artinfo button {
+  background: #0a0718;
+  color: whitesmoke;
+  padding: 7px 20px;
+  border: 1px solid #0a0718;
+  border-radius: 20px;
+}
+body #section article {
+  display: flex;
+  padding: 30px 30px 0 30px;
+}
+body #section article #latestrel {
+  width: 20%;
+}
+body #section article #swimming {
+  width: 60%;
+}
+body #section article #swimming table tr td:first-child {
+  color: #a4aab2;
+  text-align: center;
+}
+body #section article #swimming table tr td {
+  padding: 10px 0;
+}
+body #section article #similarart {
+  width: 20%;
+}
+
+/*# sourceMappingURL=style.css.map */
